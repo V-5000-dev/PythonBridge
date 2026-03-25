@@ -1,7 +1,7 @@
 import ntcore
 import socket
 import time
-#from ntcore impo'rt NetworkTables
+#from ntcore import NetworkTables
 
 ntKey = "key"
 unityIP = "127.0.0.1"
