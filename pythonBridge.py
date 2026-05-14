@@ -26,7 +26,7 @@ print("Press Ctrl+C to stop.\n")
 try:
     while True:
         voltage = voltage_entry.getDouble(0.0)
-        voltage = 1
+        # voltage = 1
         message = f"voltage:{voltage:.2f}".encode()
         sock.sendto(message, (unityIP, unityPort))
         print(f"Sent: {message.decode()}", end="\r")
